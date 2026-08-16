@@ -1,31 +1,10 @@
 {
-  "lsp": {
-    "oxfmt": {
-      "enable_lsp_tasks": false,
-      "initialization_options": {
-        "settings": {},
-      },
-    },
-    "markdownlint": {
-      "settings": {
-        "MD060": {
-          "style": "compact",
-        },
-        "MD013": {
-          "line_length": 999,
-        },
-        "MD024": {
-          "enabled": false,
-        },
-      },
-    },
-  },
+  "lsp": {},
   "languages": {
     "Markdown": {
       "format_on_save": "off",
       "prettier": { "allowed": false },
-      "formatter": [{ "language_server": { "name": "markdownlint" } }],
-      "language_servers": ["markdownlint", "!oxfmt", "..."],
+      "formatter": [{ "language_server": { "name": null } }],
     },
   },
 }
